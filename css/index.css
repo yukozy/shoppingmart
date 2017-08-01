@@ -1,0 +1,294 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+}
+#allPage{
+	width:100%;
+	height:auto;
+}
+
+
+/* 顶部 地址选择 搜索 */
+.header{
+	width:100%;
+	background:#02a1fc;
+	height:0.8rem;
+	position:relative;
+	color:white;
+	position:fixed;
+	z-index:999;
+
+}
+
+.nav_left{
+	width:1.0rem;
+	text-align:center;
+	background:#02a1fc;
+	line-height:0.8rem;
+	font-size:0.2rem;
+	margin-left:0.15rem;
+	color:white;
+}
+
+.down{
+	position:absolute;
+	top:0.27rem;
+	left:1.05rem;
+	width:0.3rem;
+	height:0.3rem;
+}
+
+
+
+.search{
+	position:absolute;
+	top:0.2rem;
+	left:1.5rem;
+	width:3rem;
+	height: 0.35rem;
+	border-radius:0.1rem;
+	background:url('../images/big.png') no-repeat;
+	background-size:12%;
+	outline:none;
+
+}
+input::-webkit-input-placeholder{
+	   	color:#fff;
+	   	text-indent:25px;
+}
+
+.scan{
+	position:absolute;
+	width:0.4rem;
+	height:0.4rem;
+	top:0.2rem;
+	right:0.3rem;
+}
+
+/* 轮播图 */
+
+.banner img{
+	margin-top:0.82rem;
+	width:100%;
+	height: 2.05rem;
+}
+
+/* 美食酒店图标选项 */
+.icon{
+	width:100%;
+	height:auto;
+	font-weight:bold;
+}
+.icon table{
+	margin:0.1rem auto;
+	text-align:center;
+	width:90%;
+	height:3rem;
+	font-size:0.16rem;
+}
+
+.icon img{
+ 	width: 70%;
+ 	padding-bottom:0.02rem;
+ }
+
+
+
+ /* 免费体验区 */
+
+ /* 标题 */
+.free{
+	width: 100%;
+	margin-top:0.2rem;
+	color:#5c5d5d;
+}
+
+.freeTitle{
+	width:95%;
+	height:0.4rem;
+	display:flex;
+	font-size:0.20rem;
+	margin:0 auto;
+	justify-content:space-between;
+}
+.freeTitle_1{
+	font-size:0.22rem;
+}
+
+.blueLine{
+	vertical-align:text-bottom;
+}
+
+.freeTitle li{
+	margin-right:0.2rem;
+}
+#timer{
+	color:#4792f8;
+}
+
+/* 内容-免费体验区 */
+
+.freePro ul{
+	width:95%;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-around;
+	align-items:center;
+}
+.freePro ul li{
+	margin-top:0.16rem;
+
+}
+
+.freePro ul li img{
+	width: 1.3rem;
+	height: 1.1rem;
+}
+
+/* 玖邦尼创富 */
+.jbn{
+	width: 100%;
+	height:auto;
+	margin-top:0.2rem;
+	color:#5c5d5d;
+}
+
+.jbnPro ul{
+	width:90%;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-around;
+	align-items:center;
+}
+.jbnPro ul li{
+	margin-right:0.03rem;
+	margin-top:0.16rem;
+
+}
+.jbnPro ul li img{
+	width:1.45rem;
+	height:1.38rem;
+}
+
+/* 猜你喜欢 */
+.like1{
+	width:92%;
+	/* height:0.35rem; */
+	margin:0 auto;
+	border:0.01rem solid #efefef;
+	border-right:none;
+	border-left:none;
+}
+.guessLike{
+	width: 100%;
+	margin-top:0.2rem;
+	color:#5c5d5d;
+}
+
+.guessLike_choice1{
+	width:100%;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-around;
+	margin-top:0.1rem;
+}
+
+.guessLike_choice1 img{
+	width: 2.5rem;
+	height:1.5rem;
+}
+.caketext p{
+	width: 100%;
+	height:40%;
+	display:flex;
+	justify-content:space-between;
+}
+	/* .caketext span{
+		width: 50%;
+		display:inline-block;
+	} */
+.text2,.text4{
+	text-align:right;
+	width:60%;
+}
+.text1{
+	font-size:0.18rem;
+	font-weight:bold;
+}
+.text3{
+	font-size:0.18rem;
+	color:red;
+}
+
+/* 查看全部团购 */
+#open{
+	width:100%;
+	text-align:center;
+	height:0.6rem;
+	line-height:0.6rem;
+	margin-bottom:1rem;
+	color:#5c5d5d;
+}
+
+
+/* 底部脚注 */
+.footer{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	height:1rem;
+	background:#0c97f8;
+	display:flex;
+	justify-content:space-around;
+	position:fixed;
+}
+.footer img{
+	width:0.8rem;
+	height:0.6rem;
+	margin-top:0.16rem;
+}
+
+/* 横线 */
+hr{
+	height:0.04rem;
+	margin-top:0.2rem;
+}
+
+.smallLine{
+	width:100%;
+	height:0.01rem;
+	background:#e5e5e5;
+	margin-top:0.161rem;
+}
+
+
+/* 查看更多团购 */
+#groupMore{
+	display:none;
+}
+
+#close{
+	width:100%;
+	text-align:center;
+	height:0.6rem;
+	line-height:0.6rem;
+	margin-bottom:1rem;
+	display:none;
+	color:#5c5d5d;
+}
+
+/* 查看更多 */
+#shopping{
+	width: 100%;
+	height:3.2rem;
+	text-align:center;
+	display:none;
+
+}
+#shopping img{
+	width: 92%;
+	height:3.2rem;
+}
